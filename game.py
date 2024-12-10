@@ -85,7 +85,7 @@ def team_presents_animation():
 
     # Display Team Presents background
     screen.blit(team_presents_bg, (0, 0))
-    draw_text("Our Team Presents", WIDTH // 2 - 150, HEIGHT // 2 - 100, GOLD, font=big_font)
+    draw_text("Pyrox Presents", WIDTH // 2 - 150, HEIGHT // 2 - 100, GOLD, font=big_font)
 
     # Space Pirates logo or title moving in from the side
     title_font = pygame.font.SysFont("comicsans", 100)
@@ -95,7 +95,7 @@ def team_presents_animation():
     # Animation loop for smoother effect
     for i in range(WIDTH, -300, -8):  # Title moves more slowly
         screen.blit(team_presents_bg, (0, 0))  # Keep the custom background
-        draw_text("Our Team Presents", WIDTH // 2 - 150, HEIGHT // 2 - 100, GOLD, font=big_font)
+        draw_text("Pyrox Presents", WIDTH // 2 - 150, HEIGHT // 2 - 100, GOLD, font=big_font)
         draw_text(title_text, i, HEIGHT // 2 + 50, BLUE, font=title_font)  # Smooth animation
         pygame.display.flip()
         pygame.time.wait(20)  # Wait for a moment to create the animation effect
