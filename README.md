@@ -65,4 +65,9 @@ Feel free to fork the repository and submit pull requests for enhancements or bu
 This project is open-source and available under the MIT License.
 
 --->Acknowledgments
+<<<<<<< HEAD
 Special thanks to the Pyrox Team for their dedication and creativity in bringing this project to life!
+=======
+Special thanks to the Pyrox Team for their dedication and creativity in bringing this project to life!
+
+>>>>>>> a6243bf4982810b8e105214b0ea64870eed40da5
